@@ -1,1 +1,26 @@
-# Game-of-life-v2-C
+# Game of Life v2 C
+
+
+--INFO--
+
+Conway's Game of Life
+
+C language
+
+libraries : raylib
+
+--HOW TO USE--
+
+Execute gol.exe to launch
+
+The grid size can be changed by altering "n" and "m" global values
+
+Press "r" to reset and randomize the screen
+
+Press "c" to clear everything
+
+Press "g" to switch on or off the grid
+
+Press Space to pause/resume
+
+Use Left and Right click to draw cells
