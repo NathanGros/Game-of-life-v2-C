@@ -13,7 +13,7 @@ libraries : raylib
 
 Execute gol.exe to launch
 
-The grid size can be changed by altering "n" and "m" global values
+The grid size can be changed by altering "grid_w" and "grid_h" global values
 
 Press "r" to reset and randomize the screen
 
