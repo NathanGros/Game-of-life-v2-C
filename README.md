@@ -11,7 +11,7 @@ libraries : raylib
 
 --HOW TO USE--
 
-Execute gol.exe to launch
+Execute gol.exe to launch (if it doesn't work compile yourself the file "gol.c")
 
 The grid size can be changed by altering "grid_w" and "grid_h" global values
 
