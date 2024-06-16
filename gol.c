@@ -126,9 +126,6 @@ void main() {
 
 	//loop
 	while (!WindowShouldClose()) {
-		//draw grid
-		if (running) draw(b, display_grid);
-
 		//controls : pause - unpause
 		if (IsKeyPressed(KEY_SPACE)) running = !running;
 
@@ -186,8 +183,11 @@ void main() {
 			}
 		}
 
-		//update board
-		if (running) update(b);
+		//update and draw board
+		if (running) {
+			update(b);
+			draw(b, display_grid);
+		}
 
 		BeginDrawing();
 		EndDrawing();
